@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root{
-  --color-white: hsl(39, 89%, 66%);
-  --color-light: hsl(263, 22%, 93%);
-  --color-gray: hsl(240, 2%, 60%);
+  --color-orange: hsl(32, 83%, 66%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-light: hsl(255, 21%, 89%);
+  --color-gray: hsl(240, 18%, 76%);
+>>>>>>> 17a2125cd238fd4df2218b38cef21e20f2025650
   --color-primary: hsl(252, 75%, 60%);
   --color-secondary: hsl(253, 74%, 85%);
   --color-success: hsl(120, 95%, 65%);
@@ -81,11 +83,12 @@ body{
 
 nav{
   width: 100%;
-  background: var(--color-white);
+  background: var(--color-orange);
   padding: 0.7rem 0;
   position: fixed;
   /* top: 0;
   z-index: 10; */
+  opacity: 1;
 }
 
 nav .container{
@@ -117,3 +120,5 @@ nav .create{
   align-items: center;
   gap: 2rem;
 }
+
+/*========= main ==========*/
