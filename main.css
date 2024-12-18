@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root{
+  --color-orange: hsl(32, 83%, 66%);
   --color-white: hsl(0, 0%, 100%);
   --color-light: hsl(255, 21%, 89%);
   --color-gray: hsl(240, 18%, 76%);
@@ -81,11 +82,12 @@ body{
 
 nav{
   width: 100%;
-  background: var(--color-white);
+  background: var(--color-orange);
   padding: 0.7rem 0;
   position: fixed;
   /* top: 0;
   z-index: 10; */
+  opacity: 1;
 }
 
 nav .container{
@@ -117,3 +119,5 @@ nav .create{
   align-items: center;
   gap: 2rem;
 }
+
+/*========= main ==========*/
