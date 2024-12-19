@@ -88,7 +88,7 @@ nav{
   position: fixed;
   /* top: 0;
   z-index: 10; */
-  opacity: 1;
+  /* opacity: 0; */
 }
 
 nav .container{
@@ -122,3 +122,23 @@ nav .create{
 }
 
 /*========= main ==========*/
+main{
+  position: relative;
+  top: 5.4rem;
+}
+
+main .container{
+  display: grid;
+  grid-template-columns: 18vw auto 20vw;
+  column-gap: 2rem;
+  position: relative;
+}
+
+main a{
+  display: block;
+}
+
+h3{
+  display: inline;
+}
+
