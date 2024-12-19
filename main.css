@@ -5,18 +5,19 @@
   --color-white: hsl(0, 0%, 100%);
   --color-light: hsl(255, 21%, 89%);
   --color-gray: hsl(240, 18%, 76%);
+
   --color-primary: hsl(252, 75%, 60%);
-  /* --color-secondary: hsl(253, 74%, 85%); */
-  /* --color-success: hsl(120, 95%, 65%); */
-  /* --color-danger: hsl(0, 95%, 65%); */
+  --color-secondary: hsl(253, 74%, 85%);
+  --color-success: hsl(120, 95%, 65%);
+  --color-danger: hsl(0, 95%, 65%);
   --color-dark: hsl(252, 30%, 17%);
-  /* --color-black: hsl(250, 29%, 8%); */
+  --color-black: hsl(250, 29%, 8%);
 
   --border-radius: 2rem;
-  /* --card-border-radius: 1rem; */
+  --card-border-radius: 1rem;
   --btn-padding: 0.6rem 2rem;
   --search-padding: 0.6rem 1rem;
-  /* --card-padding: 1rem; */
+  --card-padding: 1rem;
 }
 
 *, *::before, *::after{
